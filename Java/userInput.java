@@ -22,28 +22,5 @@ public class userInput {
         int celsius = scanner.nextInt();
         int fahrenheit = (celsius * 9/5) + 32;
         System.out.println(celsius + " degrees Celsius is equal to " + fahrenheit + " degrees Fahrenheit.");
-
-    //The following variables have been initialized for you:
-    //     int a;
-    //     float f;
-    //     double d;
-    //     You have to cast the variable into different data types as follows:
-    //     Cast a as float to a variable x.
-    //     Cast f as an integer to a variable y.
-    //     Cast d as float to a variable z.
-
-       Scanner input1= new Scanner(System.in);
-       System.out.println("Enter the number according to given data types");
-       int a=input1.nextInt();
-       float f=input1.nextFloat();
-       double d=input1.nextDouble();
-       float x;
-       int y;
-       float z;
-       x=(float)a;
-       y=(int)f;
-       z=(float)d;
-       System.out.println("x="+x+" y="+y+" z="+z);
-
 }
 }

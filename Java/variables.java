@@ -20,14 +20,6 @@ public class variables {
         System.out.println(marks1);
         System.out.println(student2);
 
-        int a = 5;
-
-        int b = 4;
-        
-        int c = 3;
-        
-        double z = (a + b - c) / a * b;
-        
-        System.out.println(z);
+       
     }
 }
