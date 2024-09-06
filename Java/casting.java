@@ -12,5 +12,17 @@ public class casting {
        int y=(int)f;
        float z=(float)d;;   
        System.out.println("x="+x+" y="+y+" z="+z);
+
+       int marks1 = 20;
+        int marks2 = 40;
+        int marks3 = 50;
+
+        double average = ((double)marks1 + (double)marks2 + (double)marks3)/3;
+        System.out.println(average);
+
+        // another example
+        char xy = 'a';
+        int value = (int)xy;
+        System.out.println("Value of a:"+value);
    }
 }
