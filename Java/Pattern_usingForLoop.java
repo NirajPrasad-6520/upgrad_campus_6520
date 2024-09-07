@@ -44,6 +44,19 @@ public class Pattern_usingForLoop {
             System.out.print("* ");
             System.out.println();
         }
+
+         // Reverse Pyramid Star Pattern
+         System.out.println("Reverse Pyramid Star Pattern");
+         int row1;
+         System.out.println("Enter rows number :");
+         row1=sc.nextInt();
+         for(int i=0;i<row1;i++){
+            for(int j=0;j<i;j++)
+            System.out.print(" ");
+            for(int j = i;j<row1;j++)
+            System.out.print("* ");
+            System.out.println();
+         }
     }
     
 }
