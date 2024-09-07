@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Patternusingfor {
+public class Pattern_usingForLoop {
     public static void main(String []args){
         int rows;
         System.out.println("Enter rows:");
