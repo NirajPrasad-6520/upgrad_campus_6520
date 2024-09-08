@@ -18,14 +18,12 @@ public class OperatorExample{
         System.out.println(a/b);//2  
         System.out.println(a%b);//0  
 
+        // Operator priority
         System.out.println("Operator priority");
         int p = 5;
-
-        int y = 4;
-        
-        int c = 3;
-        
+        int y = 4;        
+        int c = 3;        
         double z = (p + y - c) / p * y;
-        
         System.out.println(z);
-    }}  
+    }
+}  

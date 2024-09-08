@@ -1,3 +1,4 @@
+//In this program using "Without User Input","User Input",also use "Even or Odd".
 import java.util.*;
 public class ifelse {
     public static void main(String args[]){
@@ -41,7 +42,7 @@ public class ifelse {
         {
             System.out.println("The number "+num1+" is Odd.\n");
         }
-        
+        sc.close();
     }
     
 }

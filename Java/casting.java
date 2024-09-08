@@ -24,5 +24,6 @@ public class casting {
         char xy = 'a';
         int value = (int)xy;
         System.out.println("Value of a:"+value);
+        input.close();
    }
 }

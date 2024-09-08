@@ -17,10 +17,10 @@ public class userInput {
 
     // Write a Java program to take the temperature from the user in Celsius, convert it into Fahrenheit and display it to the user. You can use the following formula for this purpose: 
     //F=9C/5+32 Where, C is the temperature in Celsius and F is the temperature in Fahrenheit.
-        Scanner scanner = new Scanner(System.in);
         System.out.print("Enter temperature in Celsius: ");
-        int celsius = scanner.nextInt();
+        int celsius = input.nextInt();
         int fahrenheit = (celsius * 9/5) + 32;
         System.out.println(celsius + " degrees Celsius is equal to " + fahrenheit + " degrees Fahrenheit.");
+        input.close();
 }
 }
