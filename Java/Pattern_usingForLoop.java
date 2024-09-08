@@ -32,6 +32,7 @@ public class Pattern_usingForLoop {
              System.out.println();
          }
 
+         //Downward Triangle Star Pattern
          int rows2;
          System.out.println("Downward Triangle Star Pattern");
          System.out.println("Enter rows number:");
