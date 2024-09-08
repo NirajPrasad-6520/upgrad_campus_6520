@@ -32,6 +32,17 @@ public class Pattern_usingForLoop {
              System.out.println();
          }
 
+         int rows2;
+         System.out.println("Downward Triangle Star Pattern");
+         System.out.println("Enter rows number:");
+         rows2=sc.nextInt();
+         for(int i=0;i < rows2; i++)
+         {
+             for(int j=0;j<rows2-i;j++)
+             System.out.print("* ");
+             System.out.println();
+         }
+
         //Pyramid Star Pattern
         System.out.println("Pyramid Star Pattern");
         int row;
