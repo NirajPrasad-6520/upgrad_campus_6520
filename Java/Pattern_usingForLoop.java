@@ -57,6 +57,28 @@ public class Pattern_usingForLoop {
             System.out.print("* ");
             System.out.println();
          }
+
+
+         //Diamond shape Star Pattern
+         System.out.println("Diamond shape Star Pattern");
+         int row2;
+         System.out.println("Enter rows number :");
+         row2=sc.nextInt();
+         for(int i=0;i<row2;i++){
+            for(int j=0;j<row2-i-1;j++)
+            System.out.print(" ");
+            for(int j = 0;j<=i;j++)
+            System.out.print("* ");            
+            System.out.println();
+         }
+         for(int i=0;i<row-1;i++){
+            for(int j=0;j<=i;j++){
+                System.out.print(" ");
+            }
+            for(int j=0;j<row-i-1;j++)
+            System.out.print("* ");
+            System.out.println();
+         }
     }
     
 }
