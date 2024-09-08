@@ -32,9 +32,9 @@ public class Pattern_usingForLoop {
              System.out.println();
          }
 
-         //Downward Triangle Star Pattern
+         //Downward Right Triangle Star Pattern
          int rows2;
-         System.out.println("Downward Triangle Star Pattern");
+         System.out.println("Downward right triangle star pattern");
          System.out.println("Enter rows number:");
          rows2=sc.nextInt();
          for(int i=0;i < rows2; i++)
@@ -43,6 +43,25 @@ public class Pattern_usingForLoop {
              System.out.print("* ");
              System.out.println();
          }
+
+         //Mirrored downward right triangle star pattern
+         int rows3;
+         System.out.println("Mirrored downward right triangle star pattern");
+         System.out.println("Enter rows number:");
+         rows3=sc.nextInt();
+                for (int i = rows3; i >= 1; i--) {
+                    // Print spaces
+                    for (int j = 1; j <= rows3 - i; j++) {
+                        System.out.print("  ");
+                    }
+        
+                    // Print stars
+                    for (int j = 1; j <= i; j++) {
+                        System.out.print("* ");
+                    }
+        
+                    System.out.println();
+                }
 
         //Pyramid Star Pattern
         System.out.println("Pyramid Star Pattern");
