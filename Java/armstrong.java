@@ -2,6 +2,7 @@ import java.util.*;
 public class armstrong {
     public static void main(String[]args)
     {
+        //Upto 3-digits number of Armstrong number
         System.out.println("Enter number upto 3digits numbers:");
         int n,c,r,arm=0;
         Scanner sc=new Scanner(System.in);
@@ -19,6 +20,7 @@ public class armstrong {
         System.out.println(c+" is not Armstrong number.");
         System.out.println();
 
+        //All types of Armstrong numbers:
        System.out.println("Enter all types of Armstrong numbers:");
         int m=sc.nextInt();
         int t1=m,leng=0;
