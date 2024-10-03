@@ -42,9 +42,9 @@ public class armstrong {
             arm1=arm1+mul;
             t2=t2/10;
         }     
-        if(arm1 == m){
+        if(arm1 == m)
             System.out.println(m+" is Armstrong number.");
-        }else
+        else
         System.out.println(m+" is not Armstrong number.");
     }
 }
