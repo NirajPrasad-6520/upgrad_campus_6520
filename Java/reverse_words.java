@@ -8,7 +8,7 @@ public class reverse_words {
 
         for(int i=str.length()-1;i>=0;i--)
         rev+=str.charAt(i);
-        System.out.println("Reverse word: "+rev);
+        System.out.println("Reverse of given  word: "+rev);
 
     sc.close();
     }
