@@ -8,7 +8,7 @@ public class reversenumber {
         n=sc.nextInt();
         while(n>0)
         {
-            r=n%10;
+            r=n%10;//last digit
             rev=rev*10+r;
             n=n/10;
         }
@@ -22,7 +22,7 @@ public class reversenumber {
         n=sc.nextInt();
         for(;n!=0;n=n/10)
         {
-            r=n%10;
+            r=n%10;//last digit
             revs=revs*10+r;
         }
         System.out.println("Reverse number: "+revs);
