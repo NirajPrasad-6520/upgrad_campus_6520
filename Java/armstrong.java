@@ -46,5 +46,6 @@ public class armstrong {
             System.out.println(m+" is Armstrong number.");
         else
         System.out.println(m+" is not Armstrong number.");
+        sc.close();
     }
 }

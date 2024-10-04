@@ -1,5 +1,4 @@
 import java.lang.Math;
-import java.util.random.*;
 import java.util.Random;
 import java.util.concurrent.ThreadLocalRandom; 
 public class randomnumber {

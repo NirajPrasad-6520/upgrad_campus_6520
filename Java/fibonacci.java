@@ -30,6 +30,7 @@ public class fibonacci {
             q=s;
             s=r;
         }
-
+scc.close();
+sc.close();
     }
 }

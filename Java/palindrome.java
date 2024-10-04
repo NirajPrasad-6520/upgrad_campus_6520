@@ -30,6 +30,7 @@ public class palindrome {
         if(str.equalsIgnoreCase(rev))
         System.out.println(str+" is Palindrome Word");
         else
-        System.out.println(str+" is Not Palindrome Word because it's reverse is "+rev);        
+        System.out.println(str+" is Not Palindrome Word because it's reverse is "+rev);   
+        sc.close();     
     }
 }
