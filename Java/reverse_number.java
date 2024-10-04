@@ -1,5 +1,5 @@
 import java.util.*;
-public class reversenumber {
+public class reverse_number {
     public static void main(String[] args) {
     //Using While loop
         int n,r,rev=0;
