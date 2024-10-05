@@ -102,6 +102,31 @@ public class Pattern_usingForLoop {
             System.out.println();
         }
 
+        //Reverse Number pattern
+        System.out.println("Reverse number triangle pattern");
+        for(int i=1;i<=rows;i++)
+        {
+         for(int j=1;j<=rows-i+1;j++)
+         {
+            System.out.print(j+" ");
+         }
+         System.out.println();
+        }
+
+        System.out.println("Sequence number triangle:");
+        int o=5;
+        int number=1;
+        for(int i=1;i<=o;i++)
+        {
+         for(int j=1;j<=i;j++)
+         {
+            System.out.print(number+" ");
+            number++;
+         }
+         System.out.println();
+        }
+
+        //Hollow Rectangle
         System.out.println("Hollow Rectangle :");
         int n=6;
         int m=20;
