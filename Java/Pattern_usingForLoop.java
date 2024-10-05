@@ -101,6 +101,24 @@ public class Pattern_usingForLoop {
             }
             System.out.println();
         }
+
+        System.out.println("Hollow Rectangle :");
+        int n=6;
+        int m=20;
+
+        for(int i=1;i<=n;i++)
+        {
+         for(int j=1;j<=m;j++){
+            if(i == 1 || j == 1 || i == n || j == m){
+               System.out.print("* ");
+            }
+            else
+            {
+               System.out.print("  ");
+            }
+         }
+         System.out.println();
+        }
         sc.close();
     }
 }
