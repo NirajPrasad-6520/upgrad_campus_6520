@@ -1,6 +1,7 @@
 import java.util.Scanner;
 
-public class Pattern_usingForLoop {
+public class Pattern_usingForLoop 
+{
     public static void main(String []args)
     {
         int rows;
@@ -10,6 +11,7 @@ public class Pattern_usingForLoop {
 
       //Right Triangle Star Pattern
         System.out.println("1. Right Triangle Star Pattern:");
+
          for(int i = 0; i < rows; i++)
          {
             for(int j = 0; j <= i; j++)
@@ -22,6 +24,7 @@ public class Pattern_usingForLoop {
 
       //Mirrored Right Triangle Star Pattern
         System.out.println("2. Mirrored Right Triangle Star Pattern:");
+
          for(int i = 1; i <= rows; i++)
          {
              for(int j = (rows - i) * 2; j >= 1; j--)
@@ -34,6 +37,7 @@ public class Pattern_usingForLoop {
 
       //Downward Right Triangle Star Pattern
         System.out.println("3. Downward right triangle star pattern:");
+
          for(int i = 0; i < rows; i++)
          {
              for(int j = 0; j < rows - i; j++)
@@ -44,6 +48,7 @@ public class Pattern_usingForLoop {
 
       //Mirrored downward right triangle star pattern
         System.out.println("4. Mirrored downward right triangle star pattern:");
+
          for (int i = rows; i >= 1; i--) 
                 {
                     for (int j = 1; j <= rows - i; j++)
@@ -56,18 +61,20 @@ public class Pattern_usingForLoop {
 
       //Pyramid Star Pattern
         System.out.println("5. Pyramid Star Pattern:");
+
          for(int i = 0; i < rows; i++)
-        {
+         {
             for(int j = rows - i - 1; j >= 1; j--)
                System.out.print(" ");
             for(int j = 0; j <= i; j++)
                System.out.print("* ");
             System.out.println();
-        }
+         }
         System.out.println("\n");
 
       // Reverse Pyramid Star Pattern
         System.out.println("6. Reverse Pyramid Star Pattern:");
+
          for(int i = 0; i < rows; i++)
          {
             for(int j = 0; j < i; j++)
@@ -80,14 +87,18 @@ public class Pattern_usingForLoop {
 
       //Diamond shape Star Pattern
         System.out.println("7. Diamond shape Star Pattern:");
-         for(int i = 0; i < rows; i++){
+
+         for(int i = 0; i < rows; i++)
+         {
             for(int j = 0; j < rows - i - 1; j++)
                System.out.print(" ");
             for(int j = 0; j <= i; j++)
                System.out.print("* ");            
             System.out.println();
          }
-         for(int i = 0; i < rows - 1; i++){
+
+         for(int i = 0; i < rows - 1; i++)
+         {
             for(int j = 0; j <= i; j++)
             {
                 System.out.print(" ");
@@ -100,6 +111,7 @@ public class Pattern_usingForLoop {
 
       //Number Triangle Pattern
         System.out.println("8. Number Triangle Pattern:");
+
          for(int i = 1; i <= rows; i++)
         {
             for(int j = 1;j <= i; j++)
@@ -112,6 +124,7 @@ public class Pattern_usingForLoop {
 
       //Reverse Number pattern
         System.out.println("9. Reverse number triangle pattern");
+
         for(int i = 1; i <= rows; i++)
         {
          for(int j = 1; j <= rows - i + 1; j++)
@@ -124,6 +137,7 @@ public class Pattern_usingForLoop {
 
         //Floyd Triangle
         System.out.println("10. Floyd Triangle:");
+
         int number = 1;
         for(int i = 1; i <= rows; i++)
         {
@@ -138,6 +152,7 @@ public class Pattern_usingForLoop {
 
         //0,1 Triangle
         System.out.println("11. 0-1 Triangle:");
+
         for(int i = 1; i <= rows; i++)
         {
          for(int j = 1; j <= i; j++)
@@ -160,7 +175,8 @@ public class Pattern_usingForLoop {
         for(int i = 1; i <= n; i++)
         {
          for(int j = 1; j <= m; j++){
-            if(i == 1 || j == 1 || i == n || j == m){
+            if(i == 1 || j == 1 || i == n || j == m)
+            {
                System.out.print("* ");
             }
             else
@@ -175,6 +191,7 @@ public class Pattern_usingForLoop {
         //Square Pattern 
         System.out.println("13. Square Pattern:");
         int p = 5;
+
         for(int i = 1; i <= p; i++)
         {
          for(int j = 1;j <= p; j++)
@@ -238,6 +255,7 @@ public class Pattern_usingForLoop {
 
         //solid Rhomus
         System.out.println("15. Solid Rhomus:");
+
         for(int i = 1; i <= rows; i++)
         {
          //spaces
@@ -257,6 +275,7 @@ public class Pattern_usingForLoop {
 
         //Number Pyramid
         System.out.println("16. Number Solid:");
+        
         for(int i = 1; i <= rows; i++)
         {
          //spaces

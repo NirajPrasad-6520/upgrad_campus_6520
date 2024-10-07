@@ -1,7 +1,8 @@
 import java.lang.Math;
 import java.util.Random;
 import java.util.concurrent.ThreadLocalRandom; 
-public class randomnumber {
+public class randomnumber 
+{
     
     /**
      * Generating Random Number in Java
@@ -14,6 +15,7 @@ public class randomnumber {
      {
        Random  random=new Random();
        System.out.println("1. Random class: \n");
+
          for(int i = 1; i <= 5; i++)
            {
                System.out.println("Random int: " + random.nextInt());

@@ -1,5 +1,7 @@
-public class OperatorExample{  
-    public static void main(String args[]){  
+public class OperatorExample
+{  
+    public static void main(String args[])
+    {  
     //Unary operator
     System.out.println("Unary operator");
         int x = 10;  

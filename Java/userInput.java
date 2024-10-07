@@ -1,7 +1,9 @@
 import java.util.*;
 
-public class userInput {
-    public static void main( String[] args ) {
+public class userInput 
+{
+    public static void main( String[] args ) 
+    {
         int numberA;
         int numberB;
         Scanner input = new Scanner(System.in);

@@ -4,12 +4,15 @@
 // Note: 0 and 1 are not prime numbers. The 2 is the only even prime number because all the other even numbers can be divided by 2.
 
 import java.util.*;
-public class primenumber {
-    public static void main(String[] args) {
+public class primenumber 
+{
+    public static void main(String[] args) 
+    {
         int n, count = 0;
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter any individual number to check Prime or Not :");
         n = sc.nextInt();
+
         for(int i = 1; i <= n; i++)
         {
             if(n % i == 0)
@@ -30,6 +33,7 @@ public class primenumber {
         Scanner scc=new Scanner(System.in);
         System.out.print("Enter any n number to check all prime number between 0 to n: ");
         m = scc.nextInt();
+        
         for(a = 1; a <= m; a++)
         {
             count1 = 0;
