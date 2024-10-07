@@ -18,7 +18,8 @@ public class prime_function
         {
             System.out.println("Prime number.");
         }
-        else{
+        else
+        {
             System.out.println("Not Prime Number.");
         }
     }

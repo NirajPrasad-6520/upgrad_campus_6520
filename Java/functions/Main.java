@@ -10,14 +10,17 @@ package functions;
       //function_body 
 // } 
 // return-type 
-    public class Main {
+    public class Main 
+    {
         //A METHOD to calculate sum of 2 numbers - a & b
-        public static void sum(int a, int b) {
+        public static void sum(int a, int b) 
+        {
             int sum = a + b;
             System.out.println("Sum of a and b is : " + sum);
         }
        
-        public static void main(String[] args) {
+        public static void main(String[] args) 
+        {
            int a = 10;
            int b = 20;
             sum(a, b); // Function Call

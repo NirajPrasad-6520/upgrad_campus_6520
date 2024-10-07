@@ -20,6 +20,5 @@ public class multiply_functions
        System.out.println("Multiply of a and b : " + result);
        sc.close();
     }
-
 }
 
