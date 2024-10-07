@@ -2,14 +2,14 @@
 import java.util.*;
 public class ifelse {
     public static void main(String args[]){
-        int number=10;
+        int number = 10;
         if(number > 0)
         {
-            System.out.println("The number "+number+" is greater than 0.\n");
+            System.out.println("The number " + number + " is greater than 0.\n");
         }
-        else if(number< 0)
+        else if(number < 0)
         {
-            System.out.println("The number"+number+" is less than 0.\n");
+            System.out.println("The number " + number + " is less than 0.\n");
         }
         else 
         {
@@ -18,13 +18,13 @@ public class ifelse {
 
 
         //User Input code
-        Scanner sc =new Scanner(System.in);
+        Scanner sc = new Scanner(System.in);
         System.out.println("Enter the number to check given number is Greater than 0 or Not :");
-        int num =sc.nextInt();
-        if(num>0){
+        int num = sc.nextInt();
+        if(num > 0){
             System.out.println("The number is greater than 0.\n");
         }
-        else if (num<0){
+        else if (num < 0){
             System.out.println("The number is less than 0\n");
         }
         else {
@@ -33,14 +33,14 @@ public class ifelse {
 
         //Even Or Odd 
         System.out.println("Enter any number to check even or odd :");
-        int num1=sc.nextInt();
+        int num1 = sc.nextInt();
         if(num1 %2 == 0)
         {
-            System.out.println("The number "+num1+" is Even.\n");
+            System.out.println("The number " + num1 + " is Even.\n");
         }
         else
         {
-            System.out.println("The number "+num1+" is Odd.\n");
+            System.out.println("The number " + num1 + " is Odd.\n");
         }
         sc.close();
     }

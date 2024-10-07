@@ -14,16 +14,16 @@ public class randomnumber {
      {
        Random  random=new Random();
        System.out.println("1. Random class: \n");
-         for(int i=1;i<=5;i++)
+         for(int i = 1; i <= 5; i++)
            {
-               System.out.println("Random int: "+ random.nextInt());
-               System.out.println("Random double: "+ random.nextDouble());
-               System.out.println("Random float: "+ random.nextFloat());
-               System.out.println("Random boolean: "+ random.nextBoolean()+"\n");
+               System.out.println("Random int: " + random.nextInt());
+               System.out.println("Random double: " + random.nextDouble());
+               System.out.println("Random float: " + random.nextFloat());
+               System.out.println("Random boolean: " + random.nextBoolean()+"\n");
            }
 
            System.out.println("2. Math.random():\n");
-           for(int i=1;i<=5;i++)
+           for(int i = 1; i <= 5; i++)
            {
                System.out.println("1st Random Number: " + Math.random());
                System.out.println("2nd Random Number: " + Math.random());

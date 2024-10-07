@@ -11,14 +11,14 @@ public class variables {
 
         // calculating total of marks
         int total = marks1 + marks2;
-        System.out.println("Total="+total);
+        System.out.println("Total= " + total);
 
         // declaring variables in a single line
         String student1 = "Ram";
         String student2 = "Mohan";
 
         // printing values of marks and student names
-        System.out.println(marks1+"-"+student2);
-        System.out.println(marks2+"-"+student1);
+        System.out.println(marks1 + "-" + student2);
+        System.out.println(marks2 + "-" + student1);
     }
 }
