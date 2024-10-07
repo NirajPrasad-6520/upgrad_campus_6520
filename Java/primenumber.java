@@ -8,6 +8,7 @@ public class primenumber
 {
     public static void main(String[] args) 
     {
+    //individual number to check Prime or Not
         int n, count = 0;
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter any individual number to check Prime or Not :");
@@ -29,6 +30,7 @@ public class primenumber
         }
         System.out.println();
 
+    // number to check all prime number between 0 to n
         int a, count1, j, m, total = 0;
         Scanner scc=new Scanner(System.in);
         System.out.print("Enter any n number to check all prime number between 0 to n: ");
