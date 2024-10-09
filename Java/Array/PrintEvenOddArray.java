@@ -1,5 +1,5 @@
 package Array;
-public class PrintEvenArray 
+public class PrintEvenOddArray 
 {
     public static void main(String[] args) 
     {
