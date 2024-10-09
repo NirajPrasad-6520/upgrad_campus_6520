@@ -1,6 +1,6 @@
 package Array;
 //Java Program to sort the elements of an array in ascending order
-public class SortAsc
+public class SortAscDsc
  {
      public static void main(String[] args) 
       {    
