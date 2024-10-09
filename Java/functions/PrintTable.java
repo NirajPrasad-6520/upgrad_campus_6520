@@ -10,7 +10,7 @@ public class PrintTable
     public static void main(String[] args) 
     {
         Scanner sc = new Scanner(System.in);
-        System.out.print("Enter number : ");
+        System.out.print("Enter number for any table: ");
         int n=sc.nextInt();
         printtable(n);
         sc.close();
