@@ -6,7 +6,7 @@ public class InfiniteDoWhileLoop
         {
             do 
             {
-                System.out.println("This loop will run forever.");
+                System.out.println("This loop will run forever. ");
             } while (true);
         }
     }

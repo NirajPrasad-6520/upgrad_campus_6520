@@ -6,7 +6,7 @@ public class average
     public static void printAverage(int a, int b, int c)
     {
         int avg = (a + b + c) / 3;
-        System.out.println("Average: " + avg);
+        System.out.println("Average of a, b, c : " + avg);
     }
     public static void main(String[] args) 
     {

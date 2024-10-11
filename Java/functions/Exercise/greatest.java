@@ -1,5 +1,5 @@
 package functions.Exercise;
-// Write a function which takes in 2 numbers and returns the greater of those two.
+//Write a function which takes in 2 numbers and returns the greater of those two.
 import java.util.*;
 public class greatest 
 {
