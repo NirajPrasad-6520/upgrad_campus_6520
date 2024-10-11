@@ -3,7 +3,7 @@ public class LargestAndSmallestElementArray
 {
     public static void main(String[] args) 
     {
-        int arr[] = new int[]{1,2,3,4,5,12,14,15};
+        int arr[] = new int[]{111,22,35,444,50,12,14,15};
          //Initialize max with first element of array.  
          int max = arr[0];
          int min = arr[0];   
