@@ -1,4 +1,4 @@
-package Array;
+package Array.SingleDimensionalArray;
 //Java Program to sort the elements of an array in ascending order
 public class SortAscDsc
  {

@@ -1,4 +1,4 @@
-package Array;
+package Array.SingleDimensionalArray;
 public class LargestAndSmallestElementArray 
 {
     public static void main(String[] args) 

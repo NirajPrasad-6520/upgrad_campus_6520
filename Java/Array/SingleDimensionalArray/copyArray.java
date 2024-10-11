@@ -1,4 +1,4 @@
-package Array;
+package Array.SingleDimensionalArray;
 import java.util.Scanner;
 
 public class copyArray 

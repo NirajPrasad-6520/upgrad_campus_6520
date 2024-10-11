@@ -1,4 +1,4 @@
-package Array;
+package Array.SingleDimensionalArray;
 
 public class ReverseArray 
 {
