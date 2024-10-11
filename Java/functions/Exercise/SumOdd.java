@@ -27,7 +27,7 @@ public class SumOdd
     public static void main(String[] args) 
     {
         Scanner sc = new Scanner(System.in);
-        System.out.print("Enter nubmer : ");
+        System.out.print("Enter any number to sum of all odd numbers from 1 to n : ");
         int n = sc.nextInt();
         printSumOfOdd(n);
         sc.close();
