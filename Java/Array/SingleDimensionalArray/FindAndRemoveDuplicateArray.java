@@ -2,7 +2,7 @@ package Array.SingleDimensionalArray;
 import java.util.Arrays;
 // It allows you to use the Arrays class from the java.util package without needing to specify its full name each time you reference it.
 // This class contains useful methods for manipulating arrays, such as sorting and converting them to strings.
-public class FindDuplicateArray 
+public class FindAndRemoveDuplicateArray 
 {
     public static void main(String[] args) 
     {
