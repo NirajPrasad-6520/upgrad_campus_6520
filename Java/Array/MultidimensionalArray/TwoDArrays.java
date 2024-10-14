@@ -27,7 +27,6 @@ public class TwoDArrays
         {
             for(int j = 0; j < columns; j++)
             {
-                
                 System.out.print(numbers[i][j] + " ");
             }System.out.println();
         }  sc.close();      
