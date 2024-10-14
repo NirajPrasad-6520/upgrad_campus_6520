@@ -32,5 +32,5 @@ public class MatrixAdditionAndMultiplyArray
             }    
             System.out.println();    
         }
-}
+    }
 }
