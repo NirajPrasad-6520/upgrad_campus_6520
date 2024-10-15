@@ -31,9 +31,9 @@ public class PrintEvenOddArray
     //Find all odd array in given array.
             System.out.println("Odd numbers in the array:");
         // Loop through the array to find odd numbers
-                    for (int num : arr)
-                    if (num % 2 != 0) 
-                    System.out.print(num + " ");
+                    for (int i = 0; i < arr.length; i++)
+                    if (arr[i]%2!=0) 
+                    System.out.print(arr[i] + " ");
     }
 }
 
