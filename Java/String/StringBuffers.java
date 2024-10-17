@@ -1,5 +1,4 @@
 package String;
-
 public class StringBuffers 
 {
     public static void main(String[] args) 
@@ -49,5 +48,4 @@ public class StringBuffers
         System.out.println(sbb.capacity());//now (16*2)+2=34 i.e (oldcapacity*2)+2 
         System.out.println();        
     }
-    
 }
